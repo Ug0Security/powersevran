@@ -1,6 +1,6 @@
 For($i=0;$i -lt 254 ;$i++) 
 {
-   $truc = "192.168." + $i.ToString() + ".11"
+   $truc = "192.168.1." + $i.ToString()
    
    $arg = $truc + " -n 1"
    
